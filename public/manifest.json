@@ -1,0 +1,22 @@
+{
+  "name": "Task Planner App",
+  "icons": [
+    {
+      "src": "icon.jpg",
+      "sizes": "72x72",
+      "type": "image/jpg"
+
+    },
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ],
+  "short_name": "lab 5 ieti",
+  "theme_color": "#1a32d2",
+  "background_color": "#2196f3",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "."
+}
