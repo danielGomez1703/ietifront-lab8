@@ -171,7 +171,7 @@ class AddTask extends React.Component {
             responsible: this.state.responsible
         };
 
-        await axios.post('http://localhost:8080/task/creatTasks', {
+        await axios.post('https://ietiback-lab8.herokuapp.com/task/creatTasks', {
                 id: Math.random()*99, 
                 status: newItem.status, 
                 descripcion: newItem.descripcion,
@@ -201,7 +201,7 @@ class AddTask extends React.Component {
     async handleFinish() {
         localStorage.setItem("isAdding", false);
         var list = []
-        await axios.get('http://localhost:8080/task/getTasks', {
+        await axios.get('https://ietiback-lab8.herokuapp.com/task/getTasks', {
             username: this.state.mail,
             password: this.state.password
         })

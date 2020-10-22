@@ -27,7 +27,7 @@ export class Login extends React.Component {
     }
 
     componentDidMount() {
-        axios.post('http://localhost:8080/user/login', {
+        axios.post('https://ietiback-lab8.herokuapp.com/user/login', {
             username: 'test@mail.com',
             password: 'password'
         })
@@ -88,7 +88,7 @@ export class Login extends React.Component {
         e.preventDefault();
         console.log("entra al boton");
         var token = null;
-        await axios.post('http://localhost:8080/user/login', {
+        await axios.post('https://ietiback-lab8.herokuapp.com/user/login', {
             username: this.state.mail,
             password: this.state.password
         })

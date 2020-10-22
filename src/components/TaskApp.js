@@ -18,9 +18,9 @@ class TaskApp extends Component {
         };
         this.handleClick = this.handleClick.bind(this);
     }
-    async componentDidMount() {
+   /* async componentDidMount() {
         var list = []
-        await axios.get('http://localhost:8080/task/getTasks', {
+        await axios.get('https://ietiback-lab8.herokuapp.com/task/getTasks', {
             username: this.state.mail,
             password: this.state.password
         })
@@ -47,7 +47,7 @@ class TaskApp extends Component {
             });
         this.setState({ items: list });
 
-    }
+    }*/
 
 
     render() {
