@@ -1,17 +1,15 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## TASK MANAGER  PWA
-
-Esta aplicaion se desarrollo en reactjs, la cual tiene como proposito agregar tareas conociendo su creador y la informacion general
+## TASK MANAGER  LAB 8
 
 SE DESPLEGO EN FIREBASE
 
-despleigue en FIREBASE  lOCAL [en este enlace a FIREBASE ](https://task-planner-app-8d216.web.app/)
-despleigue en FIREBASE  [en este enlace a FIREBASE ](https://task-planner-app-8d216.firebaseapp.com/)
+
+despleigue en FIREBASE  [en este enlace a FIREBASE ](https://taskplanner-lab8.web.app/)
 
 	credenciales:
-	user : prueba@gmail.com
-	clave : prueba1234
+	user : test@mail.com
+	clave : password
 
 
 # Nuevo Script
