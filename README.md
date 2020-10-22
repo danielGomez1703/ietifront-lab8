@@ -4,11 +4,21 @@
 SE DESPLEGO EN FIREBASE
 
 
+
 despleigue en FIREBASE  [en este enlace a FIREBASE ](https://taskplanner-lab8.web.app/)
+
+local http://localhost:3000
 
 	credenciales:
 	user : test@mail.com
 	clave : password
+
+	
+despliegue del backend en heroku 
+
+	heroku :https://ietiback-lab8.herokuapp.com
+	local : http://localhost:8080
+	
 
 
 # Nuevo Script
